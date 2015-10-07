@@ -1,0 +1,138 @@
+html{
+  height: auto;
+  width: 100%;
+  /*margin: 0 auto;*/
+  background-image:  url('http://www.dreamtemplate.com/dreamcodes/bg_images/color/c13.jpg');
+
+  /*background-repeat: no-repeat;*/
+  background-position: center;
+  transition: 1s;
+}
+body{
+  height: auto;
+  margin: 0 auto;
+  font-family:'Abel', sans-serif;
+  background: rgba(0, 159, 200, 0.5);
+}
+
+
+.image-size{
+  border-radius: 50%;
+  width: 250px;
+}
+
+.container{
+  animation: zoomInUp 1s;
+  min-height: 100vh;
+  height: 100%;
+  width: 100vw;
+  position: relative;
+  text-align: center;
+}
+.nav{
+  display: inline-block;
+  clear: both;
+  text-align: center;
+}
+body > div > div.header > div:nth-child(2) > h3{
+  margin-bottom: 3%;
+}
+.main-link{
+  font-size: 25px;
+  clear: both;
+  transition: .2s;
+}
+.main-link:hover{
+  font-size: 28px;
+  color: white;
+  clear: both;
+  transition: .5s;
+  text-shadow: 0 0 10px white;
+}
+.active-link{
+
+  font-size: 28px;
+  color: white;
+}
+.text-container{
+
+  text-align: center;
+  display: inline-block;
+  width: 100%;
+  height: auto;
+  background: rgba(255,255,255,0.9);
+  background-position: right;
+  clear: both;
+  box-shadow: 0 0 50px rgba(0,0,0,0.4);
+}
+
+.text{
+  padding: 1%;
+  animation: bouneInDown 1s;
+}
+
+.portrait{
+  width: 200px;
+  border: 2px solid black;
+  border-radius: 50%;
+  margin: 15px;
+  clear: both;
+  text-align: center;
+  transition: 1s;
+
+}
+.portrait:hover{
+  transition: 1s;
+
+  border: 2px solid white;
+  border-radius: 25px;
+}
+.nav-divider{
+  font-size: 30pt;
+}
+.header-text{
+  font-size: 30pt;
+  clear: both;
+  width: 50px;
+}
+.about-text{
+  font-size: 15pt;
+}
+.header{
+  text-align: center;
+}
+
+.my-footer{
+  /*margin-top: 5%;*/
+  text-align: center;
+}
+
+.no-link-decoration{
+  text-decoration: none;
+  color: inherit;
+}
+.welcome{
+  border: dotted 10px black;
+  width: auto;
+  height: auto;
+}
+.contact-link{
+  font-size: 20px;
+  transition: .2s;
+
+
+}
+.contact-link:hover{
+  color: white;
+  transition: .5s;
+  text-shadow: 0 0 10px white;
+
+}
+
+
+
+
+
+
+
+

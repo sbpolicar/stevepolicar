@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html ng-app="PortfolioApp">
+<head>
+  <title>Samuel Policar</title>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <base href="/">
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.15/angular.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.15/angular-animate.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.15/angular-aria.min.js"></script>
+  <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.3.15/angular-route.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/angular_material/0.10.0/angular-material.min.js"></script>
+  <script type="text/javascript" src="js/script.js"></script>
+  <script type="text/javascript" src="controllers/HomeCtrl.js"></script>
+  <script type="text/javascript" src="controllers/AboutCtrl.js"></script>
+
+  <link href='https://fonts.googleapis.com/css?family=Abel' rel='stylesheet' type='text/css'>
+  <!-- <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-material-design/0.3.0/css/material-fullpalette.css"> -->
+  <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/angular_material/0.10.0/angular-material.css">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.4.0/animate.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+  <link href='css/style.css' rel='stylesheet' type='text/css'>
+
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+        <img class="portrait" ng-src="https://media.licdn.com/media/AAEAAQAAAAAAAAJCAAAAJDM1NjRkYWE1LWJhYTItNDcyNS1hYTc0LTgyYTc0NjBiM2M3Yg.jpg">
+      <div class="">
+        <t class="header-text">
+          <b>Samuel Policar</b>
+        </t><br>
+        <h3>Full Stack Web Dev, Avid Gamer, Musician/Producer, Foodie.</h3>
+      </div>
+      <!-- <hr class="breaker"><hr class="breaker"> -->
+      <div class="nav">
+        <a href="/about" class="no-link-decoration"><md-button class="main-link"><t class="main-link">About</t></md-button>
+        <big class="nav-divider"></a><b>|</b></big>
+        <a class="no-link-decoration" href="/projects"><md-button class="main-link"><t class="main-link">Projects</t></md-button></a>
+        <big class="nav-divider"><b>|</b></big>
+        <a target="_blank" href="https://resume.creddle.io/resume/388ptdcao3k" class="no-link-decoration"><md-button class="main-link"><t class="main-link">Resum&eacute;</t></md-button></a>
+      </div>
+    </div>
+
+    <ng-view></ng-view>
+
+
+    <div class="my-footer">
+      <h2>Contact</h2>
+      <a target="_blank" class="no-link-decoration contact-link" href="https://github.com/sbpolicar">
+        <i class=" fa fa-github-square fa-3x"></i>
+      </a>
+      <a target="_blank" class="no-link-decoration contact-link" href="https://www.linkedin.com/in/samuelpolicar">
+        <i class=" fa fa-linkedin-square fa-3x"></i>
+      </a>
+      <a target="_blank" class="no-link-decoration contact-link" href="https://www.facebook.com/samuel.policar">
+        <i class=" fa fa-facebook-square fa-3x"></i>
+      </a>
+      <a target="_blank" class="no-link-decoration contact-link" href="https://www.twitter.com/thisishowiyolo">
+        <i class=" fa fa-twitter-square fa-3x"></i>
+      </a>
+      <a target="_blank" href="mailto:sbpolicar@gmail.com" class="no-link-decoration contact-link">
+        <i class=" fa fa-envelope-square fa-3x"></i>
+      </a>
+      <p>&copy; Copyright 2015 Samuel Policar</p>
+    </div>
+
+  </div>
+</body>
+</html>
