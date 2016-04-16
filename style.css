@@ -157,6 +157,15 @@ li > i {
     -.5px .5px 0 white,
     .5px .5px 0 white;
 }
+.imgHolder {
+    position: relative;
+}
+.imgHolder span {
+    position: absolute;
+    bottom: 0;
+    /*right: 10px;*/
+    /*top: 10px;*/
+}
 .headshot {
     margin-top: 5%;
     border-radius: 50%;
