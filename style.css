@@ -81,7 +81,8 @@ li > i {
     color: white;
 }
 .nav-ul > li > a, label {
-    visibility: hidden;
+    /*visibility: hidden;*/
+    display: none;
     border-bottom: solid transparent 1px;
     padding: .5em;
     padding-top: 5px;
