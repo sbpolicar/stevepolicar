@@ -21,12 +21,14 @@ body {
   background: linear-gradient(to right, #A9A9A9 , #5E5E5E);
 }
 .logo {
+    /*text-align: center;*/
+    /*margin: 0 auto;*/
     margin:0;
-    margin-top:15px;
     margin-bottom:-33px;
     /*margin-left:15px;*/
 }
 .logo > img {
+    margin-top:40px;
     max-width: 43%;
     min-width: 150px;
     width: 100%;
@@ -79,6 +81,7 @@ li > i {
     color: white;
 }
 .nav-ul > li > a, label {
+    visibility: hidden;
     border-bottom: solid transparent 1px;
     padding: .5em;
     padding-top: 5px;
@@ -155,10 +158,11 @@ li > i {
     .5px .5px 0 white;
 }
 .headshot {
-    margin-top: 23px;
+    /*margin-top: 23px;*/
     border-radius: 50%;
+    width: 23%;
     /*border: solid black .5px;*/
-    box-shadow: 0px 0px 100px black;
+    /*box-shadow: 0px 0px 100px black;*/
 
 }
 .content-container {

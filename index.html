@@ -23,22 +23,22 @@
 </head>
 <body ng-controller="MainCtrl">
   <nav class="navbar navbar-static-top nav-styling" role="navigation">
-    <div class="container-fluid container-overlay">
+    <div class="container-fluid container-overlay text-center">
       <!-- Brand and toggle get grouped for better mobile display -->
-      <div class="navbar-header">
+        <a class="logo " href="#"><img src="stevepolicar/header-logo2.png" alt=""></a>
+  <!--     <div class="navbar-header">
         <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
           <span class="sr-only">Toggle navigation</span>
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
         </button>
-        <a class="logo pull-left" href="#"><img src="stevepolicar/header-logo2.png" alt=""></a>
-      </div>
+      </div> -->
       <br>
         <ul class="nav nav-ul navbar-nav navbar-right">
           <li><a ng-class="{'nav-active': page === 'home'}" ng-click="setContent('home')">Home</a></li>
           <li><a ng-class="{'nav-active': page === 'about'}" ng-click="setContent('about')">About</a></li>
-          <li><a ng-class="{'nav-active': page === 'contact'}" ng-click="setContent('contact')">Contact</a></li>
+          <li><a ng-sclass="{'nav-active': page === 'contact'}" ng-click="setContent('contact')">Contact</a></li>
           <li><a ng-class="{'nav-active': page === 'services'}" ng-click="setContent('services')">Services</a></li>
           <li><a ng-class="{'nav-active': page === 'credentials'}" ng-click="setContent('credentials')">Credentials</a></li>
         </ul>
@@ -50,7 +50,7 @@
         <div class="">
           <div class="content-container">
           <div class="text-center">
-            <img class="headshot" src="https://media.licdn.com/media/AAEAAQAAAAAAAAM1AAAAJGI1MTQ4NjFmLTM5MzItNDU0My1iNzM5LWMzMDg0ZGVkOTlkZQ.jpg">
+            <img class="headshot" src="stevepolicar/big_logo.png">
           </div>
           </div>
           </p>
@@ -60,14 +60,23 @@
     </div>
   </div>
   <div class="panel-footer nav-styling text-center">
-            <h2 ><big>{{title}}</big></h2>
+            <h2 ><big>Mass Transit Procurment Consulting</big></h2>
+            <!-- <h2 ><big>{{title}}</big></h2> -->
             <div class="">
-              <p class="content">{{paragraph}}</p>
+              <p class="content">
+                <ul>
+                  <li>Bullet</li>
+                  <li>Points</li>
+                  <li>go</li>
+                  <li>here</li>
+                </ul>
+              </p>
+              <!-- <p class="content">{{paragraph}}</p> -->
                <p>
                <hr>
             </div>
     <div class="row">
-      <div class="col-sm-1"></div>
+    <!--   <div class="col-sm-1"></div>
       <div class="col-sm-3">
         <ul class="text-center nav">
           <label>
@@ -79,7 +88,7 @@
       </div>
       <div class="col-sm-1">
         <ul class="text-center nav">
-          <!-- <label>Label</label> -->
+          <label>Label</label>
           <li>&nbsp;</li>
           <li>&nbsp;</li>
           <li>&nbsp;</li>
@@ -90,11 +99,11 @@
         </ul>
       </div>
       <div class="col-sm-2">
-        <a class="logo-footer text-center" href="#"><img height="150px" src="stevepolicar/logo.png" alt=""></a>
+        <a class="logo-footer text-center" href="#"><img height="150px" src="logo.png" alt=""></a>
       </div>
       <div class="col-sm-1">
         <ul class="text-center nav">
-          <!-- <label>Label</label> -->
+          <label>Label</label>
           <li>&nbsp;</li>
           <li>&nbsp;</li>
           <li>&nbsp;</li>
@@ -103,14 +112,14 @@
           <li>&nbsp;</li>
           <li>&nbsp;</li>
         </ul>
-      </div>
-      <div class="col-sm-3">
+      </div> -->
+      <div class="col-sm-12">
         <ul class="text-center nav">
           <li>25906 SE 39th Place</li>
           <li>Issaquah, Washington 98029 USA</li>
           <li>office - 425.427.1246</li>
           <li>mobile - 425.829.2154</li>
-          <li><a href="mailto:spolicar@comcast.net">spolicar@comcast.net</a></li>
+          <a href="mailto:spolicar@comcast.net"><i class="fa fa-envelope"></i> spolicar@comcast.net</a>
         </ul>
       </div>
       <div class="col-sm-1"></div>
