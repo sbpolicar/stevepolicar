@@ -80,6 +80,9 @@ nav {
 li > i {
     color: white;
 }
+h1 {
+    font-size: 3em;
+}
 .nav-ul > li > a, label {
     /*visibility: hidden;*/
     display: none;
@@ -158,19 +161,15 @@ li > i {
     -.5px .5px 0 white,
     .5px .5px 0 white;
 }
-.imgHolder {
-    position: relative;
-}
-.imgHolder span {
-    position: absolute;
-    bottom: 0;
-    /*right: 10px;*/
-    /*top: 10px;*/
-}
+
 .headshot {
-    margin-top: 5%;
-    border-radius: 50%;
-    width: 23%;
+    margin-top: 2%;
+    /*border-radius: 50%;*/
+    width: 45%;
+    /*min-width: 720px;*/
+    /*min-height: 450px;*/
+    /*max-width: 720px;*/
+    /*max-height: 450px;*/
     /*border: solid black .5px;*/
     /*box-shadow: 0px 0px 100px black;*/
 
