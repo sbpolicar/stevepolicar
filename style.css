@@ -1,0 +1,171 @@
+* {
+    padding: 0;
+    outline: none !important;
+    margin: 0;
+}
+body {
+    overflow-x: hidden;
+}
+.nav-styling {
+  background: rgba(5,5,5,1);
+  background: -webkit-linear-gradient(left top, #A9A9A9 , #5E5E5E); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(right top, #A9A9A9, #5E5E5E); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(right top, #A9A9A9, #5E5E5E); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(to right, #A9A9A9 , #5E5E5E);
+}
+.container-overlay {
+  background: rgba(5,5,5,1);
+  background: -webkit-linear-gradient(left top, #A9A9A9 , #5E5E5E); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(right top, #A9A9A9, #5E5E5E); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(right top, #A9A9A9, #5E5E5E); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(to right, #A9A9A9 , #5E5E5E);
+}
+.logo {
+    margin:0;
+    margin-top:15px;
+    margin-bottom:-33px;
+    /*margin-left:15px;*/
+}
+.logo > img {
+    max-width: 43%;
+    min-width: 150px;
+    width: 100%;
+}
+.logo-footer {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+}
+.viewport {
+    height: 50vh;
+    /*width: 100vw;*/
+}
+.page {
+    height: 100%;
+    /*width: 80%;*/
+    margin: 0 auto;
+    background-image: url('https://images.unsplash.com/photo-1448056975861-28196f26abd6?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&w=1080&fit=max&s=358cecbf8077359c3b43f9a093425973');
+    /*border-left: solid rgba(0,0,0, .5) 20px;*/
+    /*border-right: solid rgba(0,0,0, .5) 20px;*/
+    /*box-shadow: 0 0 1000px black;*/
+    background-size: 100% 150%;
+    filter: FlipH;
+    background-position: center;
+    clip: rect(0px,60px,200px,0px);
+}
+.jumbotron {
+    background-color: transparent;
+    font-family: 'PT Sans Mono', sans-serif;
+    letter-spacing: -5%;
+    /*border-radius: 10px 10px 0 0;*/
+    color: white !important;
+     text-shadow:
+    -.5px -.5px 0 black,
+    .5px -.5px 0 black,
+    -.5px .5px 0 black,
+    .5px .5px 0 black;
+}
+ul {
+    list-style-type: none;
+}
+label {
+    border-bottom: solid black 1px;
+}
+nav {
+    margin: 0 !important;
+    border: none !important;
+}
+li > i {
+    color: white;
+}
+.nav-ul > li > a, label {
+    border-bottom: solid transparent 1px;
+    padding: .5em;
+    padding-top: 5px;
+    margin: 10px;
+    margin-bottom: 0px;
+    font-size: 160%;
+    margin-left: 15px;
+    font-family: 'Copperplate', sans-serif;
+    letter-spacing: -1.5px;
+    /*border-radius: 10px 10px 0 0;*/
+    color: white !important;
+     text-shadow:
+    -.5px -.5px 0 black,
+    .5px -.5px 0 black,
+    -.5px .5px 0 black,
+    .5px .5px 0 black;
+    transition: .3s;
+}
+
+.panel-footer {
+    /*border-bottom: solid transparent 1px;*/
+    border: solid transparent 1px;
+    font-size: 150%;
+    /*font-family: 'Copperplate', sans-serif;*/
+    /*letter-spacing: -1.5px;*/
+    /*border-radius: 10px 10px 0 0;*/
+    color: white !important;
+     text-shadow:
+    -.5px -.5px 0 black,
+    .5px -.5px 0 black,
+    -.5px .5px 0 black,
+    .5px .5px 0 black;
+    transition: .3s;
+}
+.fa {
+     text-shadow:
+    -.5px -.5px 0 #000,
+    .5px -.5px 0 #000,
+    -.5px .5px 0 #000,
+    .5px .5px 0 #000;
+}
+.content {
+    /*color: black;*/
+    text-shadow:
+    -.5px -.5px 0 rgba(0,0,0,0.5),
+    .5px -.5px 0 rgba(0,0,0,0.5),
+    -.5px .5px 0 rgba(0,0,0,0.5),
+    .5px .5px 0 rgba(0,0,0,0.5);
+    /*text-shadow: none;*/
+}
+.nav-ul > li > a:hover {
+    cursor: pointer;
+    transition: .5s;
+    border-bottom: solid rgba(0,0,0,0.5) 1px;
+    box-shadow: inset 0 -5px 10px rgba(0,0,0,0.5);
+    border-radius: 5px 5px 0 0;
+    color: black !important;
+    text-shadow:
+    -.5px -.5px 0 white,
+    .5px -.5px 0 white,
+    -.5px .5px 0 white,
+    .5px .5px 0 white;
+}
+.nav-active {
+    /*transition: .5s;*/
+    background-color: white;
+    border-bottom: solid rgba(0,0,0,0.5) 1px;
+    box-shadow: inset 0 -5px 10px rgba(0,0,0,0.5);
+    border-radius: 5px 5px 0 0;
+    text-shadow:
+    -.5px -.5px 0 white,
+    .5px -.5px 0 white,
+    -.5px .5px 0 white,
+    .5px .5px 0 white;
+}
+.headshot {
+    margin-top: 23px;
+    border-radius: 50%;
+    /*border: solid black .5px;*/
+    box-shadow: 0px 0px 100px black;
+
+}
+.content-container {
+    margin-top: -50px;
+    height: 65vh;
+    padding:20px;
+    border-radius: 5px;
+    background-color: rgba(0,0,0,0.5);
+    box-shadow: inset 0 0 100px black;
+}
